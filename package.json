@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "google-counter-assi": "link:",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <button className="switch" onClick={() => setShow(!show)}>
-        VIEW TIMER
+        {show == true ? "STOP WATCH" : "TIMER"}
       </button>
-      {show == true ? <Counter /> : <Timer />}
+      {show == true ? <Timer /> : <Counter />}
     </div>
   );
 }
