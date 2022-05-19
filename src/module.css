@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  height:600px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.switch{
+  width:100%;
+  padding: 14px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+}
+button{
+  width: 30%;
+  margin: 5px;
+  padding: 15px;
+  font-size:15px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+span{
+  border: 1px solid black;
+  padding:5px 8px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.timeIn{
+  width:60%;
+  padding:8px 8px;
+  font-size: 16px;
+}
